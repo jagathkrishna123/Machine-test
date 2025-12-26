@@ -19,7 +19,7 @@ const OurClients = () => {
         <div className="absolute top-0 right-0 h-full left-[120px] sm:left-[180px] md:left-[360px] overflow-hidden flex items-center">
           <div className="flex items-center gap-10 sm:gap-14 md:gap-20 whitespace-nowrap animate-marquee">
             {Array.from({ length: 14 }).map((_, index) => (
-              <img key={index} src={ClientLogo} alt="Client logo" className="h-[32px] md:h-[56px] w-auto transition"/>
+              <img key={index} src={ClientLogo} alt="Client logo" className="h-[44px] md:h-[56px] w-auto transition"/>
             ))}
           </div>
         </div>
